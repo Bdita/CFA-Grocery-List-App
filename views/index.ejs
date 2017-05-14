@@ -1,0 +1,17 @@
+<!-- ejs combines data and a template to produce html -->
+<h3> Welcome to my <%= dataVariable.list.name %> list for <%= dataVariable.list.date %>  </h3>
+
+<!-- iterate over json object key/value pairs, grab values of the mentioned keys and display in a table-->
+<table border = '1'>
+  <tr>
+    <td> Name</td>
+    <td> Type </td>
+  </tr>
+
+  <% for(var i=0; i < dataVariable.items.length; i++) {%>
+     <tr>
+       <td><%= dataVariable.items[i].name %></td>
+       <td><%= dataVariable.items[i].type %></td>
+     <tr>
+  <% } %>
+</table>

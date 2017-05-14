@@ -1,0 +1,24 @@
+{
+  "list": {
+    "name": "Grocery",
+    "date": "14/05/2017"
+  },
+
+  "items": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "type": "Fruit"
+    },
+    {
+      "id": "2",
+      "name": "Egg Plant",
+      "type": "Vegetable"
+    },
+    {
+      "id": "3",
+      "name": "Broccoli",
+      "type": "Vegetable"
+    }
+  ]
+}
