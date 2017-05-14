@@ -30,7 +30,7 @@
   Broccoli      Vegetable
   ```
 
-  To verify the json output using your browser, type localhost:3000 .
+  To verify the json output using your browser, type localhost:3000/json .
   ```
   {"list":{"name":"Grocery","date":"14/05/2017"},"items":[{"id":"1","name":"Apple","type":"Fruit"},{"id":"2","name":"Egg Plant","type":"Vegetable"},{"id":"3","name":"Broccoli","type":"Vegetable"}]}
   ```
